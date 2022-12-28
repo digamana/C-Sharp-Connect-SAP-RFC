@@ -27,6 +27,11 @@ namespace SapRfcConsole.Struct
         {
             IRfcUnitTranfer.SetValue(strFirst, strSec);
         }
+        public IRfcStructure GetStructure(string strGetStructure)
+        {
+            var Result = IRfcUnitTranfer.GetStructure(strGetStructure);
+            return Result;
+        }
         public string GetValue(string strValue)
         {
             string OUTPUT = IRfcUnitTranfer.GetValue(strValue).ToString();
