@@ -75,7 +75,6 @@
     <Compile Include="RFC\ZTEST_SAIRPORT.cs" />
     <Compile Include="SapLogin.cs" />
     <Compile Include="Struct\Interface\ISapLogin.cs" />
-    <Compile Include="Struct\Interface\IStructBasic.cs" />
     <Compile Include="Struct\SapCommonProcess.cs" />
     <Compile Include="Struct\StructElement.cs" />
   </ItemGroup>

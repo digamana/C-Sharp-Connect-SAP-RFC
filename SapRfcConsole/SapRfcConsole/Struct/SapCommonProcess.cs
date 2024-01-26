@@ -1,12 +1,16 @@
 ﻿using SAP.Middleware.Connector;
+using SapRfcConsole.Struct.Interface;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace SapRfcConsole.Struct
 {
+
     public class SapCommonProcess
     {
         public IRfcFunction IRfcUnitTranfer { get; private set; }
